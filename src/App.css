@@ -1,0 +1,101 @@
+.row_img{
+    display: flex;
+}
+
+.i{
+    margin-inline: 29px;
+    margin-right: -20px;
+    transition: transform 450ms;
+    cursor: pointer;
+    
+}
+*{
+    margin:0;
+}
+.banner{
+    height: 680px;
+    color: white;
+}
+h3{
+       color: #fff;
+    font-weight: 400;
+    line-height: normal;
+    width: 45rem;
+    font-size: 1.4vw;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+    margin-top: .1vw;
+}
+.ban{
+    padding-top: 390px;
+        margin-left: 30px;
+
+}
+
+
+.btn{
+    width: 200px;
+    height: 50px;
+    margin-inline: 5px;
+}
+.i:hover{
+    transform: scale(1.18);
+}
+h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  height: 30px;
+  z-index: 1;
+
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+
+}
+
+.nav_black {
+  background-color: #111;
+  height: 67px;
+}
+
+.nav_logo {
+  position: fixed;
+  left: 40px;
+  width: 100px;
+  object-fit: contain;
+}
+
+.nav_avatar {
+  position: fixed;
+  right: 40px;
+  width: 40px;
+  object-fit: contain;
+}
+span{
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 2.4rem;
+}
+.first {
+    height: 460px;
+
+}
+
+.App{
+    background-color: #141414;
+}
+
+.titl{
+    font-size: 22.4px;
+    line-height: 20px;
+    font-family: Netflix Sans,Helvetica Neue, Helvetica, sans-serif,Arial;
+}
